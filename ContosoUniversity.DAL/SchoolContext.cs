@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using System.Data.Objects;
+//using System.Data.Objects;
 using ContosoUniversity.DAL;
+using System.Data.Entity.Core.Objects;
 
 namespace ContosoUniversity.DAL
 {

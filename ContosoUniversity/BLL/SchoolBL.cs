@@ -55,7 +55,7 @@ namespace ContosoUniversity.BLL
         public void UpdateStudent(Student student)
         {
             Student studentToUpdate = context.Students.Attach(student);
-            context.Entry(student).State = System.Data.EntityState.Modified;
+            context.Entry(student).State = System.Data.Entity.EntityState.Modified;
             context.SaveChanges();
         }
 
@@ -78,7 +78,7 @@ namespace ContosoUniversity.BLL
         public void UpdateDepartment(Department department)
         {
             Department departmentToUpdate = context.Departments.Attach(department);
-            context.Entry(department).State = System.Data.EntityState.Modified;
+            context.Entry(department).State = System.Data.Entity.EntityState.Modified;
             context.SaveChanges();
         }
 
@@ -134,7 +134,7 @@ namespace ContosoUniversity.BLL
         public void UpdateCourse(Course course)
         {
             Course courseToUpdate = context.Courses.Attach(course);
-            context.Entry(course).State = System.Data.EntityState.Modified;
+            context.Entry(course).State = System.Data.Entity.EntityState.Modified;
             context.SaveChanges();
         }
 
@@ -160,7 +160,7 @@ namespace ContosoUniversity.BLL
         public void UpdateInstructor(Instructor instructor)
         {
             Instructor instructorToUpdate = context.Instructors.Attach(instructor);
-            context.Entry(instructor).State = System.Data.EntityState.Modified;
+            context.Entry(instructor).State = System.Data.Entity.EntityState.Modified;
             context.SaveChanges();
         }
 
